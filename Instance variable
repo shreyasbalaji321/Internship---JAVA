@@ -1,0 +1,16 @@
+class Demo {
+    public static String name;
+    public static String color = "red";
+
+    public Demo() {
+        Demo.name = "lamborghini";
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Demo object = new Demo();
+        System.out.println("Car name is: " + Demo.name);
+        System.out.println("Color: " + Demo.color);
+    }
+}
