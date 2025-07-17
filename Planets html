@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>			
+<title>PLANETS</title>    
+</head>
+<body>
+	<center><h1 style="background-color:Gray;"><B>THE EARTH</B></h1></center>
+	<center>	<img src="C:\Users\Vicky\OneDrive\Pictures\earth.jpg"></center>
+<nav>
+     		<ul>
+ 			<center><li><a href="https://en.wikipedia.org/wiki/Google_Earth">CLICK HERE TO KNOW MORE</a></li></center>
+	        	<p><B>Earth</B> is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, most of which is located in the form of continental landmasses within Earth's land hemisphere. Most of Earth's land is at least somewhat humid and covered by vegetation, while large sheets of ice at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.
+<center><h2 style="background-color:Gray;"><B>VENUS</B></h2></center>
+<center><img src="C:\Users\Vicky\OneDrive\Pictures\venus.jpeg"></center>
+<center><li><a href="https://www.britannica.com/place/Venus-planet">CLICK HERE TO KNOW MORE</a.</li></center>
+	</ul>
+<p>Venus, second planet from the Sun and sixth in the solar system in size and mass. No planet approaches closer to Earth than Venus; at its nearest it is the closest large body to Earth other than the Moon. Because Venus’s orbit is nearer the Sun than Earth’s, the planet is always roughly in the same direction in the sky as the Sun and can be seen only in the hours near sunrise or sunset. When it is visible, it is the most brilliant planet in the sky. Venus is designated by the symbol ♀.</p>
+
+		</nav>
+	</body>
+</html>
