@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+head>
+  <meta charset="UTF-8">
+  <title>Background Video Example</title>
+  <style>
+    /* Make the video fill the background */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    video.bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg-video" autoplay muted loop>
+    <source src="C:\Users\Vicky\Downloads\Video\Planet, Rings, Exoplanets. Free Stock Video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+			
+<title>PLANETS</title>    
+</head>
+<body>
+	<center><h1><B>THE EARTH</B></h1></center>
+	<center>	<img src=""></center>
+<nav>
+     		<ul>
+ 			<center><B><li><a href="https://en.wikipedia.org/wiki/Google_Earth">CLICK HERE TO KNOW MORE</a></li></B></center>
+<!-- Background Video -->
+  <video class="bg-video" autoplay muted loop>
+    <source src="C:\Users\Vicky\Downloads\Video\Planet, Rings, Exoplanets. Free Stock Video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  
+	        	<p><B>Earth</B> is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, most of which is located in the form of continental landmasses within Earth's land hemisphere. Most of Earth's land is at least somewhat humid and covered by vegetation, while large sheets of ice at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.</p>
+
+<center><h2><B>VENUS</B></h2></center>
+<center><img src="C:\Users\Vicky\OneDrive\Pictures\venus.jpeg"></center>
+<center><B><li><a href="https://www.britannica.com/place/Venus-planet">CLICK HERE TO KNOW MORE</a></li></B></center>
+	<p> Venus, second planet from the Sun and sixth in the solar system in size and mass. No planet approaches closer to Earth than Venus; at its nearest it is the closest large body to Earth other than the Moon. Because Venus’s orbit is nearer the Sun than Earth’s, the planet is always roughly in the same direction in the sky as the Sun and can be seen only in the hours near sunrise or sunset. When it is visible, it is the most brilliant planet in the sky. Venus is designated by the symbol ♀.</p>
+
+</ul>
+	</nav>
+	</body>
+</html>
