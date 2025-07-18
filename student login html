@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<div style="background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=nyj5g1m0&id=E5775B7FB7AD2D3CD41327DC88ACD969DD0B3BCF&thid=OIP.nyj5g1m0eSLrZRiBYgbisgHaHa&mediaurl=https%3A%2F%2Fpics.craiyon.com%2F2024-03-05%2Fw3MJMG6ZTZG-YPFWtzgsfg.webp&exph=1024&expw=1024&q=Background+for+Student+Login+Page&simid=608007648960336722&form=IRPRST&ck=C63B958B97D87037AAA6192AC21AB3A6&selectedindex=2&itb=0&cw=1348&ch=680&ajaxhist=0&ajaxserp=0&cit=ccid_yYKwopZG*cp_E66A112B60E858C4813346A1BC50C117*mid_73017891B284F569D37789027249AA1AB486C52F*simid_608010887453479886*thid_OIP.yYKwopZGYFO3sQYAErOe3gHaHa&vt=2');">
+    
+
+<body>
+<h2>Login Details</h2>
+<form action="/action_page.php" target="_blank">
+  <label for="Uname">Username:</label><br>
+  <input type="text" id="Uname" name="Uname"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="text/num" id="pwd" name="pwd"><br><br>
+  <button type="button">login</button>
+  </form>
+  <p>If you click the "login" button, the form-data will be sent to a Username/Email.</p>
+</body>
+</div>
+</html>
