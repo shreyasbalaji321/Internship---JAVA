@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 30px;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Register</h2>
+    <label for="reg-username">Username</label>
+    <input type="text" id="reg-username" placeholder="Username" />
+    <label for="reg-password">Password</label>
+    <input type="password" id="reg-password" placeholder="Password" />
+    <button type="button" onclick="register()">Register</button>
+  </form>
+
+  <script>
+    function register() {
+      const username = document.getElementById('reg-username').value;
+      const password = document.getElementById('reg-password').value;
+
+      if (username && password) {
+        localStorage.setItem('savedUsername', username);
+        localStorage.setItem('savedPassword', password);
+        alert('Registered successfully!');
+        window.location.href = 'file:///C:/Users/Vicky/OneDrive/Documents/csttudentlog.html'; // Redirect to login page
+      } else {
+        alert('Please fill both fields.');
+      }
+    }
+  </script>
+</body>
+</html>
