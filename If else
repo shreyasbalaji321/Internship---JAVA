@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int mark = 80;
+        
+        if (mark > 50) {
+            System.out.println("The student is pass.");
+        } else {
+            System.out.println("The student is fail.");
+        }
+    }
+  }
