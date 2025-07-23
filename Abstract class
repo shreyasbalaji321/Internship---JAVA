@@ -1,0 +1,17 @@
+abstract class Languages{  
+  abstract void spoke();  
+}  
+class Tamil extends Languages{  
+void spoke(){System.out.println("language spoken in Tamil");}
+}
+class Hindi extends Languages{  
+void spoke(){System.out.println("language spoken in Hindi after tamil");}  
+}
+public class Main{
+public static void main(String args[]){  
+ Languages obj = new Tamil();  
+ Languages obj1 = new Hindi();
+ obj.spoke(); 
+ obj1.spoke(); 
+}  
+} 
