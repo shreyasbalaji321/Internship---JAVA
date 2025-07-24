@@ -1,0 +1,25 @@
+class CodingLanguages {
+void communicate() {System.out.println("connecting with the system...");}
+}
+class C extends CodingLanguages {
+void entry() {System.out.println("entry level coding...");}
+}
+class CPlusPlus extends C {
+void advance() {System.out.println("adding more standard libraries...");}
+}
+class Java extends CPlusPlus {
+void adding() {System.out.println("importing oops concept by java...");}
+}
+class Python extends Java {
+void simplifying() {System.out.println("importing numpy,pandas,matplotlib...");}
+}
+public class Main {
+    public static void main(String args[]) {
+        Python p = new Python();
+        p.communicate();
+        p.entry();
+        p.advance();
+        p.adding();
+        p.simplifying();
+    }
+}
