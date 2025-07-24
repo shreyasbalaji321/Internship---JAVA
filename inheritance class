@@ -14,3 +14,36 @@ f.cruising();
 f.driving();  
 f.speeding();  
 }}  
+
+
+
+#2 example 
+class Tea {
+    void milk() {System.out.println("boiling the milk...");
+    }
+}
+
+class ThreeRoses extends Tea {
+    void mixing() {System.out.println("recommended level of adding 3roses...");
+    }
+}
+
+class Sugar extends ThreeRoses {
+    void adding() {System.out.println("adding sugar...");
+    }
+}
+
+class Glasses extends Sugar {
+    void distributing(){System.out.println("pouring into glasses...");
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        Glasses g = new Glasses();
+        g.milk();
+        g.mixing();
+        g.adding();
+        g.distributing();
+    }
+}
