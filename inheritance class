@@ -1,0 +1,16 @@
+class Cars{  
+void cruising(){System.out.println("cruising 70-80KM...");}  
+}  
+class BMW extends Cars{  
+void driving(){System.out.println("driving 40-50KM...");}  
+}  
+class ferrari extends BMW{  
+void speeding(){System.out.println("speeding 110-160KM...");}  
+}  
+public class Main{  
+public static void main(String args[]){  
+ferrari f =new ferrari();  
+f.cruising();  
+f.driving();  
+f.speeding();  
+}}  
