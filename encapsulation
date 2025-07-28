@@ -1,0 +1,52 @@
+  
+class Employee_details{   
+private long mobile_no;  
+private String Name,Email,dept;  
+private float salary;    
+public long getmobile_no() {  
+    return mobile_no;  
+}  
+public void setmobile_no(long mobile_no) {  
+    this.mobile_no = mobile_no;  
+}  
+public String getName() {  
+    return Name;  
+}  
+public void setName(String Name) {  
+    this.Name = Name;  
+}  
+public String getEmail() {  
+    return Email;  
+}  
+public void setEmail(String Email) {  
+    this.Email = Email;  
+}  
+public String getdept(){
+    return dept;
+}
+public void setdept(String dept) {
+    this.dept = dept;
+}
+public float getsalary() {  
+    return salary;  
+}  
+public void setsalary(float salary) {  
+    this.salary = salary;  
+}  
+}  .  
+public class Main {  
+public static void main(String[] args) {    
+    Employee_details mobile_no=new Employee_details();  
+    mobile_no.setmobile_no(9500199530L);  
+    mobile_no.setName("Pooja S");
+    mobile_no.setdept("AI&DS");  
+    mobile_no.setEmail("poojaammu@gmail.com");  
+    mobile_no.setsalary(100000f);  
+     System.out.println(mobile_no.getName()+" "); 
+     System.out.println(mobile_no.getdept()+" "); 
+    System.out.println(mobile_no.getmobile_no()+" ");
+    System.out.println(mobile_no.getEmail()+" ");
+    System.out.println(mobile_no.getsalary()+" ");
+     
+}  
+}
