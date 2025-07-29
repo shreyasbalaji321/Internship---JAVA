@@ -1,0 +1,10 @@
+class Transport{  
+  void type(){System.out.println("transport via roadways");}  
+}    
+class car extends Transport{}
+public class Main{
+  public static void main(String args[]){  
+  car obj = new car();  
+  obj.type();  
+  }  
+}
