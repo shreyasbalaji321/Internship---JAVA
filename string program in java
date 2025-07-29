@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+
+String car= "BMW became an automobile manufacturer in 1928 when it purchased Fahrzeugfabrik Eisenach, which, at the time, built Austin Sevens under licence under the Dixi marque.";
+    System.out.println("String: " + car);
+    int length = car.length();
+    System.out.println("Length: " + length);
+  }
+}
