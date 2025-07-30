@@ -1,0 +1,36 @@
+class Mobile {
+    public void technologiaaa() {
+        System.out.println("Everything is technology.");
+    }
+}
+
+interface Android {
+    public void use();
+}
+
+interface Ios {
+    public void use();
+}
+
+public class Main extends Mobile implements Android, Ios {
+    public void use() {
+        System.out.println("Using both Android and iOS");
+    }
+
+    public void show() {
+        System.out.println("Android provides more features than ios");
+    }
+
+    public void display() {
+        System.out.println("ios provides security for personal datas");
+    }
+
+    public static void main(String args[]) {
+        Main obj = new Main();
+        System.out.println("Balaji Mobile services");
+        obj.technologiaaa();
+        obj.use();
+        obj.show();
+        obj.display();
+    }
+}
